@@ -9,7 +9,7 @@ public class Vehiculo {
     private int peso;
     private String traccion;
     private Fabricante fabricante;
-    public static int CantidadVehiculos;
+    private static int CantidadVehiculos;
     
     public Vehiculo(String placa, int puertas, int VM, String nom, int precio, int peso, String traccion, Fabricante fabri){
         this.placa = placa;
@@ -26,6 +26,10 @@ public class Vehiculo {
 
     public Vehiculo(){
         
+    }
+
+    public String vehiculosPorTipo(){
+        return 
     }
 
     public void setPlaca(String placa){
