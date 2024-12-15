@@ -29,7 +29,9 @@ public class Vehiculo {
     }
 
     public String vehiculosPorTipo(){
-        return 
+        String texto = "Automoviles: "+ Automovil.getListado().size() +"\n"+ "Camionetas: "+ Camioneta.getListado().size() + "\n" + "Camiones: "+ Camion.getListado().size();
+
+        return texto;
     }
 
     public void setPlaca(String placa){
