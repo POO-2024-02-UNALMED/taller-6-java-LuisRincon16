@@ -41,4 +41,16 @@ public class Fabricante {
         return this.pais;
     }
     
+    public static Fabrica fabricaMayorVentas(){
+        int maxVentas = 0;
+        Fabricante fMasVendedora = null;
+        
+        for(Fabricante i : listadoF){
+            if (i.getContadorF() >= maxVentas){
+                maxVentas = i.getContadorF();
+                fMasVendedora = i;
+            }
+        }
+        return fMasVendedora;
+    }
 }
