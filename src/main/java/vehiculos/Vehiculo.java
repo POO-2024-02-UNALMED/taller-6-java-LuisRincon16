@@ -26,6 +26,8 @@ public class Vehiculo {
 
         CantidadVehiculos++;
         Vehiculo.vCreados.add(this);
+        fabri.setContadorF();
+        fabri.getPais().setContadorP();
     }
 
     public Vehiculo(){

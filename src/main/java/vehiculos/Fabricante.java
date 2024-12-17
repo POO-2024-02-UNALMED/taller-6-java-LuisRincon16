@@ -23,6 +23,9 @@ public class Fabricante {
     public int getContadorF(){
         return this.contadorF;
     }
+    public void setContadorF(){
+        this.contadorF += 1;
+    }
 
     public void setNombre(String nom){
         this.nombre = nom;
