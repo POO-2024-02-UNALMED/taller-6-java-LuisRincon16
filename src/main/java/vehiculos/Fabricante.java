@@ -41,7 +41,7 @@ public class Fabricante {
         return this.pais;
     }
     
-    public static Fabrica fabricaMayorVentas(){
+    public static Fabricante fabricaMayorVentas(){
         int maxVentas = 0;
         Fabricante fMasVendedora = null;
         
