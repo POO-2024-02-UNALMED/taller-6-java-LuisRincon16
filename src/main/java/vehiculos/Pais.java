@@ -3,6 +3,17 @@ import java.util.ArrayList;
 
 public class Pais{
     private String nombre;
+    private static ArrayList<Fabricante> Fabricantes = Fabricante.getListadoF();
+    private int contadorP;
+
+    public static ArrayList<Fabricante> getFabricantes(){
+        return Pais.Fabricantes;
+    }
+    public int getContadorP(){
+        return this.contadorP;
+    }
+
+    
 
     public Pais(String nom){
         this.nombre = nom;
@@ -15,7 +26,7 @@ public class Pais{
         return this.nombre;
     }
 
-    
+
 
 
 }
